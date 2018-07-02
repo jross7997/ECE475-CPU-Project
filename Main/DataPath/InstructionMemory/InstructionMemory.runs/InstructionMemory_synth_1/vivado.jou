@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Apr 24 16:35:13 2018
+# Process ID: 2584
+# Current directory: C:/Users/jross5/Desktop/DataPath/InstructionMemory/InstructionMemory.runs/InstructionMemory_synth_1
+# Command line: vivado.exe -log InstructionMemory.vds -mode batch -messageDb vivado.pb -notrace -source InstructionMemory.tcl
+# Log file: C:/Users/jross5/Desktop/DataPath/InstructionMemory/InstructionMemory.runs/InstructionMemory_synth_1/InstructionMemory.vds
+# Journal file: C:/Users/jross5/Desktop/DataPath/InstructionMemory/InstructionMemory.runs/InstructionMemory_synth_1\vivado.jou
+#-----------------------------------------------------------
+source InstructionMemory.tcl -notrace
