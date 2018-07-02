@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Justin/Desktop/DataPath/ALU/LSR/LSR.srcs/sources_1/new/LSR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LSR
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Justin/Desktop/DataPath/ALU/LSL/LSL.srcs/sources_1/new/LSL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LSL
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Justin/Desktop/DataPath/ALU/ALU/ALU.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Justin/Desktop/DataPath/ALU/ALU/ALU.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb

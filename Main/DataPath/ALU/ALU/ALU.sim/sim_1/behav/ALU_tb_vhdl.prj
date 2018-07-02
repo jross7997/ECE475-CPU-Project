@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../LSR/LSR.srcs/sources_1/new/LSR.vhd"
+vhdl xil_defaultlib  "../../../../LSL/LSL.srcs/sources_1/new/LSL.vhd"
+vhdl xil_defaultlib  "../../../ALU.srcs/sources_1/new/ALU.vhd"
+vhdl xil_defaultlib  "../../../ALU.srcs/sim_1/new/ALU_tb.vhd"
+
+# Do not sort compile order
+nosort
