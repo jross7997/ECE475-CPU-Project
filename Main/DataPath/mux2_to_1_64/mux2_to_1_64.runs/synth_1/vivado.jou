@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Apr 25 10:02:05 2018
+# Process ID: 9828
+# Current directory: C:/Users/Justin/Desktop/DataPath/mux2_to_1_64/mux2_to_1_64.runs/synth_1
+# Command line: vivado.exe -log mux2_to_1_64.vds -mode batch -messageDb vivado.pb -notrace -source mux2_to_1_64.tcl
+# Log file: C:/Users/Justin/Desktop/DataPath/mux2_to_1_64/mux2_to_1_64.runs/synth_1/mux2_to_1_64.vds
+# Journal file: C:/Users/Justin/Desktop/DataPath/mux2_to_1_64/mux2_to_1_64.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux2_to_1_64.tcl -notrace

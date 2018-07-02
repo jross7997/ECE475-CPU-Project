@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1524664971">
+  <File Type="OPT-DCP" Name="mux2_to_1_64_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="mux2_to_1_64_routed.dcp"/>
+  <File Type="PA-TCL" Name="mux2_to_1_64.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="mux2_to_1_64_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mux2_to_1_64_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="mux2_to_1_64_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mux2_to_1_64.hwdef"/>
+  <File Type="PWROPT-DCP" Name="mux2_to_1_64_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="mux2_to_1_64_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mux2_to_1_64_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mux2_to_1_64_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mux2_to_1_64_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mux2_to_1_64_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mux2_to_1_64_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mux2_to_1_64_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mux2_to_1_64_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mux2_to_1_64_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mux2_to_1_64_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mux2_to_1_64_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mux2_to_1_64_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mux2_to_1_64_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mux2_to_1_64_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="mux2_to_1_64.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="mux2_to_1_64_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="mux2_to_1_64_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="mux2_to_1_64_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mux2_to_1_64_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="mux2_to_1_64_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="mux2_to_1_64_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="mux2_to_1_64_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mux2_to_1_64_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mux2_to_1_64_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mux2_to_1_64_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mux2_to_1_64_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mux2_to_1_64_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mux2_to_1_64_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mux2_to_1_64_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mux2_to_1_64_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mux2_to_1_64_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mux2_to_1_64_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="mux2_to_1_64.bit"/>
+  <File Type="BG-BIN" Name="mux2_to_1_64.bin"/>
+  <File Type="BITSTR-MSK" Name="mux2_to_1_64.msk"/>
+  <File Type="BITSTR-RBT" Name="mux2_to_1_64.rbt"/>
+  <File Type="BITSTR-NKY" Name="mux2_to_1_64.nky"/>
+  <File Type="BITSTR-BMM" Name="mux2_to_1_64_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="mux2_to_1_64.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="mux2_to_1_64.sysdef"/>
+  <File Type="BG-BGN" Name="mux2_to_1_64.bgn"/>
+  <File Type="BG-DRC" Name="mux2_to_1_64.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/muz2_to_1_64.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mux2_to_1_64"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
