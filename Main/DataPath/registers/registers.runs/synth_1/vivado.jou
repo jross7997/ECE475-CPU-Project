@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Apr 02 16:56:44 2018
+# Process ID: 11104
+# Current directory: C:/Users/jross5/Desktop/Steding_Ross_Lab6/Lab6_1/registers/registers.runs/synth_1
+# Command line: vivado.exe -log register_file.vds -mode batch -messageDb vivado.pb -notrace -source register_file.tcl
+# Log file: C:/Users/jross5/Desktop/Steding_Ross_Lab6/Lab6_1/registers/registers.runs/synth_1/register_file.vds
+# Journal file: C:/Users/jross5/Desktop/Steding_Ross_Lab6/Lab6_1/registers/registers.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source register_file.tcl -notrace
