@@ -1,0 +1,5 @@
+; Sample initialization file for a 
+; 16-bit wide by 16 deep RAM 
+memory_initialization_radix = 16;
+memory_initialization_vector = AA12, 1234, 8456, DE78, 4AAB, C47D, E99F, 1042, 3124, 5609, 71D8, 9B20, AAAA, A5FF, 5A0F, BACC;
+
