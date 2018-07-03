@@ -1,0 +1,90 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Tue May 08 16:08:24 2018
+| Host         : Justin running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Main_control_sets_placed.rpt
+| Design       : Main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    37 |
+| Minimum Number of register sites lost to control set restrictions |    27 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              36 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |            2129 |          701 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+--------------------------------------+------------------+------------------+----------------+
+|              Clock Signal             |             Enable Signal            | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------+--------------------------------------+------------------+------------------+----------------+
+| ~clk_IBUF_BUFG                        |                                      |                  |                1 |              2 |
+|  clk_IBUF_BUFG                        |                                      |                  |                2 |              3 |
+| ~manClock_IBUF_BUFG                   |                                      |                  |                2 |              5 |
+|  clk_IBUF_BUFG                        | data/sevenSeg/u6/en_Eighth_count_Sig |                  |                5 |             17 |
+|  data/signEx/extended_reg[25]_i_2_n_0 |                                      |                  |               11 |             26 |
+|  manClock_IBUF_BUFG                   | data/reg/sters[0][63]_i_1_n_0        |                  |               13 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[9]_19             |                  |               33 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[8]_11             |                  |               22 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[7]_18             |                  |               35 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[6]_12             |                  |               18 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[5]_17             |                  |               13 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[4]_13             |                  |               18 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[3]_16             |                  |               14 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[30]_0             |                  |               37 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[2]_14             |                  |               18 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[29]_29            |                  |               17 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[28]_1             |                  |               22 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[27]_28            |                  |               18 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[26]_2             |                  |               19 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[24]_3             |                  |               22 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[23]_26            |                  |               35 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[22]_4             |                  |               21 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[21]_25            |                  |               20 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[20]_5             |                  |               20 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[1]_15             |                  |               19 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[19]_24            |                  |               22 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[18]_6             |                  |               20 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[16]_7             |                  |               20 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[17]_23            |                  |               23 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[15]_22            |                  |               21 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[14]_8             |                  |               19 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[12]_9             |                  |               21 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[13]_21            |                  |               18 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[11]_20            |                  |               16 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[10]_10            |                  |               17 |             64 |
+|  manClock_IBUF_BUFG                   | data/reg/registers[25]_27            |                  |               19 |             64 |
+|  manClock_IBUF_BUFG                   | control/E[0]                         |                  |               46 |            128 |
++---------------------------------------+--------------------------------------+------------------+------------------+----------------+
+
+

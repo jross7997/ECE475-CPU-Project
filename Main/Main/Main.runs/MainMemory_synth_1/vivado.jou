@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon May 07 09:20:53 2018
+# Process ID: 11340
+# Current directory: C:/Users/Justin/Desktop/Main/Main/Main.runs/MainMemory_synth_1
+# Command line: vivado.exe -log MainMemory.vds -mode batch -messageDb vivado.pb -notrace -source MainMemory.tcl
+# Log file: C:/Users/Justin/Desktop/Main/Main/Main.runs/MainMemory_synth_1/MainMemory.vds
+# Journal file: C:/Users/Justin/Desktop/Main/Main/Main.runs/MainMemory_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MainMemory.tcl -notrace
